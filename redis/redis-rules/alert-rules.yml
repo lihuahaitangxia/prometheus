@@ -6,7 +6,7 @@ groups:
     for: 0m
     labels:
       severity: critical
-     annotations:
-       summary: 'Redis Down,实例:{{ $labels.instance }}'
-       description: "Redis实例 is down"
-       
+    annotations:
+      summary: 'Redis Down,实例:{{ $labels.instance }}'
+      description: "Redis实例 is down"
+  - alert: Redis
